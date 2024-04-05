@@ -1,11 +1,11 @@
 dict = {} #estabish dictionary
 
-def delete():
+def delete():#feature to delete key and its corresponding value
     dkey = input("Enter key: ")
     del(dict[dkey])
     print(dict)
 
-def modify():
+def modify(): #feature to modify the value to the corresponding key
     ckey = input("Enter key: ")
     cvalue = input("Enter new value: ")
     dict[ckey] = cvalue
