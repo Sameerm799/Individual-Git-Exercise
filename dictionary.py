@@ -24,6 +24,6 @@ print(dict) #print dicotnary once values entered
 option = int(input("Enter 1 if you want to delete the entry of a key or Enter 2 if you want to change a value: "))
 if option == 1:
     delete()
-elif option == 2; 
+elif option == 2:
     modify()
 
