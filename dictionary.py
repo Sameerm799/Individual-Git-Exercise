@@ -1,3 +1,4 @@
+##Dictonary python program to delete keys and their valeus, also modify the value for the key.
 dict = {} #estabish dictionary
 
 def delete():#feature to delete key and its corresponding value
