@@ -19,3 +19,4 @@ This time used git to merge and commit the branch. Main branch is updated proper
 
 ## Added comments for video  
 Added comments into dictionary.py, to explain what the purpose of the features delete and modify do. 
+Second take, added more comments.
