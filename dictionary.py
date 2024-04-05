@@ -5,12 +5,6 @@ def delete():
     del(dict[dkey])
     print(dict)
 
-def change(): #function to change the value for the corresponding key
-    ckey = input("Enter key: ")
-    cvalue = input("Enter new value: ")
-    dict[ckey] = cvalue
-    print(dict)
-
 amount = int(input("Enter desired number of pairs: ")) #prompt user to enter amount of pairs
 
 #for loop ranged by amount set earlier, user will enter key and value based on amount set earlier.
@@ -23,5 +17,3 @@ print(dict) #print dicotnary once values entered
 option = int(input("Enter 1 if you want to delete the entry of a key or Enter 2 if you want to change a value: "))
 if option == 1:
     delete()
-elif option == 2: 
-    change()
