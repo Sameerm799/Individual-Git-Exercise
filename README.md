@@ -16,3 +16,6 @@ Made sure to check on github that the branch is there, and merge the branch into
 git checkout -b feature-modify  
 The program now has the feature to modify the value of the corresponding key. 
 This time used git to merge and commit the branch. Main branch is updated properly locally and on github. 
+
+## Added comments for video  
+Added comments into dictionary.py, to explain what the purpose of the features delete and modify do. 
