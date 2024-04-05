@@ -5,7 +5,7 @@ def delete():
     del(dict[dkey])
     print(dict)
 
-def change():
+def change(): #function to change the value for the corresponding key
     ckey = input("Enter key: ")
     cvalue = input("Enter new value: ")
     dict[ckey] = cvalue
